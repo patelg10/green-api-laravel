@@ -32,6 +32,7 @@ composer require patelg10/green-api-laravel
 php artisan vendor:publish --tag="greenapi-config"
 ```
 
+
 ## ⚙️ Configuration
 **Add your Green API credentials to your .env file.
 You can find these in your Green API console.**
@@ -41,6 +42,7 @@ GREEN_API_ID_INSTANCE=your_id_instance_here
 GREEN_API_TOKEN_INSTANCE=your_api_token_here
 GREEN_API_HOST=https://api.green-api.com
 ```
+
 
 ## 🛠 Usage
 **Sending a Text Message**
@@ -69,6 +71,7 @@ GreenApi::sendFileByUrl(
     'Please find your invoice attached.'
 );
 ```
+
 
 ## 🔔 Handling Webhooks (Incoming Messages)
 This package automatically registers a POST route at:
@@ -124,17 +127,20 @@ class HandleWhatsAppWebhook
 }
 ```
 
+
 ## 🧪 Testing
 If you are contributing to the package, you can run tests using:
 ```
 composer test
 ```
 
+
 ## 🛡 Security
 If you discover any security-related issues, please email, Instead of using the issue tracker.
 ```
 patelg10@gmail.com
 ```
+
 
 ## 📄 License
 This package is open-sourced software licensed under the **MIT License.**
