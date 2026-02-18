@@ -23,7 +23,7 @@ A professional, expressive Laravel wrapper for the [Green API](https://green-api
 **Install the package via Composer:**
 
 ```bash
-composer require yourname/green-api-laravel
+composer require patelg10/green-api-laravel
 ```
 
 **Publish the configuration file:**
